@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('null');
+            // Not using any sensitive information (like api key etc)...
+        })();
+    </script>
+
+</head>
+
+<body>
+    <!-- --------------------------------------------Navbar Section -------------------------------------------- -->
+    <header>
+        <a href="#" class="logo">Krish <span>Bansal</span>.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home" class="nav-item active">Home</a></li>
+            <li><a href="#skills" class="nav-item">Skills</a></li>
+            <li><a href="#education" class="nav-item">Education</a></li>
+            <li><a href="#projects" class="nav-item">Projects</a></li>
+            <li><a href="#contact" class="nav-item">Contact</a></li>
+
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+
+    <!-- --------------------------------------------Home Section -------------------------------------------- -->
+    <section class="home" id="home">
+        <div class="home-container">
+            <div class="home-img">
+                <img src="./assets/myphoto.png" alt="my_image">
+            </div>
+
+            <div class="home-content">
+                <span>Hello, I'm</span>
+                <h2>Krish Bansal</h2>
+                
+                <p>
+                    I am from Delhi, India. I am currently pursuing B.Tech in Computer Science and Engineering. 
+                    I am hardworking, determined and passionate. I am quick when it comes to learning new things 
+                    and have a positive attitude. Feel free to reach out to me...
+                </p>
+    
+                <div class="btn-box">
+                    <a href="#contact" class="btn">Contact Me</a>
+                </div>
+    
+                <div class="social">
+                    <a href="https://github.com/krishbansal10"><i class="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/krish-bansal-281b43281/"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/_krish_bansal_/"><i class="bx bxl-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="divider"></section>
+
+    <!-- --------------------------------------------Skills Section -------------------------------------------- -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>My Skills</h2>
+        </div>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <div class="icons">
+                    <i class="bx bxl-html5"></i>
+                    <i class="bx bxl-css3"></i>
+                    <i class="bx bxl-javascript"></i>
+                </div>
+                
+                <h3>Frontend Development</h3>
+                <p>(HTML, CSS and JavaScript)</p>
+            </div>
+
+            <div class="skills-box">
+                <div class="icons">
+                    <i class="bx bx-code-alt"></i>
+                    <i class="bx bx-server"></i>
+                    <i class="bx bx-cylinder"></i>
+                </div>
+
+                <h3>Backend Development</h3>
+                <p>(NodeJS, ExpressJS, MySQL & MongoDB)</p>
+            </div>
+
+            <div class="skills-box">
+                <div class="icons">
+                    <i class="bx bxl-bootstrap"></i>
+                    <i class="bx bxl-tailwind-css"></i>
+                </div>
+
+                <h3>Popular Frameworks</h3>
+                <p>(Bootstrap & Tailwind CSS)</p>
+            </div>
+
+            <div class="skills-box">
+                <div class="icons">
+                    <i class="bx bxl-python"></i>
+                    <i class="bx bxl-java"></i>
+                </div>
+
+                <h3>Programming Languages</h3>
+                <p>(Python and Java)</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------------------Education Section -------------------------------------------- -->
+    <section class="education" id="education">
+        <div class="heading">
+            <h2>My Education</h2>
+        </div>
+
+        <div class="edu-timeline">
+            <div class="edu-container left">
+                <img src="./assets/checkpoint.avif" alt="">
+
+                <div class="edu-text-box">
+                    <h3>Schooling</h3>
+                    <small>2009 - 2023</small>
+                    <p>I completed my schooling from <b>The Srijan School</b>, Model Town, Delhi</p>
+                    <span class="left-arrow"></span>
+                </div>
+            </div>
+
+            <div class="edu-container right">
+                <img src="./assets/checkpoint.avif" alt="">
+
+                <div class="edu-text-box">
+                    <h3>CBSE Boards</h3>
+                    <small>2020-21 and 2022-23</small>
+                    <p>
+                        Secured <b>97.2 % in X<sup>th</sup></b> Board Examinations<br>
+                        Secured <b>94.6 % in XII<sup>th</sup></b> Board Examinations.
+                    </p>
+                    <span class="right-arrow"></span>
+                </div>
+            </div>
+
+            <div class="edu-container left">
+                <img src="./assets/checkpoint.avif" alt="">
+
+                <div class="edu-text-box">
+                    <h3>College</h3>
+                    <small>2023 - Present</small>
+                    <p>Currently pursuing <b>B.Tech</b> in <b>CSE</b> from <b>NSUT</b> (Netaji Subhas University of Technology)</p>
+                    <span class="left-arrow"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- --------------------------------------------Projects Section -------------------------------------------- -->
+    <section class="projects" id="projects">
+        <div class="heading">
+            <h2>My Projects</h2>
+        </div>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img-box">
+                    <img src="./assets/guess-the-word.png" alt="">
+                </div>
+
+                <div class="project-content">
+                    <h3>Guess The Word</h3>
+                    <p>
+                        An interesting game where the user has to guess the word correctly. To make
+                        it easier there are hints too. 
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img-box">
+                    <img src="./assets/image-editor.png" alt="">
+                </div>
+
+                <div class="project-content">
+                    <h3>Image Editor</h3>
+                    <p>
+                        An easy image editor where the user can select the image to 
+                        edit and then download the final image.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img-box">
+                    <img src="./assets/weather-app.png" alt="">
+                </div>
+
+                <div class="project-content">
+                    <h3>Weather App</h3>
+                    <p>
+                        A weather web app where the user can get weather by entering place or 
+                        by providing the device location access.
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img-box">
+                    <img src="./assets/tic-tac-toe.png" alt="">
+                </div>
+
+                <div class="project-content">
+                    <h3>Tic Tac Toe</h3>
+                    <p>
+                        A tic-tac-toe game where the user can play with bot and can  also select 
+                        if he/she has to play as O or X.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="divider"></section>
+
+    <!-- --------------------------------------------Contact Section -------------------------------------------- -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact Me</h2>
+            <span>Connect for any Queries</span>
+        </div>
+
+        <div class="form-container">
+            <form class="contact-form" id="contact-form">
+                <input type="text" id="name" placeholder="Your Name">
+                <input type="email" id="email_id" placeholder="Your Email">
+                <textarea name="" id="message" cols="30" rows="10" placeholder="Write Your Message..."></textarea>
+    
+                <input value="Send Message" class="contact-button" readonly>
+            </form>
+
+            <p class="form-msg"></p>
+        </div>
+    </section>
+
+    <!-- --------------------------------------------Footer-------------------------------------------- -->
+    <div class="footer">
+        <div class="heading">
+            <h2>Follow Me</h2>
+        </div>
+
+        <div class="footer-social">
+            <a href="https://github.com/krishbansal10"><i class="bx bxl-github"></i></a>
+            <a href="https://www.linkedin.com/in/krish-bansal-281b43281/"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.instagram.com/_krish_bansal_/"><i class="bx bxl-instagram"></i></a>
+        </div>
+    </div>
+
+    <div class="copyright">
+        &#169; | All Rights Reserved
+    </div>
+
+    <script src="./assets/scroll-reveal.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
